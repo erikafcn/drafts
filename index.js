@@ -1,7 +1,7 @@
 var randomNumber1 = Math.floor(Math.random()*6);
 var randomNumber2 = Math.floor(Math.random()*6);
 
-var array = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"];
+var array = ["dice1.png", "dice2.png", "dice3.png", "dice4.png", "dice5.png", "dice6.png"];
 document.querySelector(".img1").setAttribute("src", array[randomNumber1]);
 document.querySelector(".img2").setAttribute("src", array[randomNumber2]);
 if(randomNumber1>randomNumber2){
